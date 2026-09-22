@@ -15,7 +15,8 @@ name                     : &name "José Delgado"
 description              : &description "José Delgado's academic portfolio - Humanoid robotics & Reinforcement Learning"
 url                      : https://neguro-j.github.io
 baseurl                  : ""
-repository               : "Neguro-J/Neguro.github.io"
+repository               : "Neguro-J/Neguro-J.github.io"
+ 
 
 # Site Author
 author:
