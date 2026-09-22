@@ -39,5 +39,3 @@ Education
 - B.E. Electrical Engineer, major in Control and Automation Systems - University of Antofagasta, Chile (2025)
 - Diploma in Environmental Studies, CREA Center, University of Antofagasta, Chile (2025)
 - Ph.D. student (integrated five-year program), Science, Technology and Innovation - Nagaoka University of Technology, Japan (ongoing)
-
-[Sitemap](/sitemap/)
