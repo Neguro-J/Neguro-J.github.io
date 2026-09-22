@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # "default", "air", "sunrise", "mint", "dirt", "contrast"
-title                    : "José Delgado / Humanoid Robotics & RL"
+title                    : "José Delgado/Neguro"
 title_separator          : "-"
 name                     : &name "José Delgado"
 description              : &description "José Delgado's academic portfolio - Humanoid robotics & Reinforcement Learning"
@@ -21,7 +21,7 @@ repository               : "Neguro-J/Neguro-J.github.io"
 # Site Author
 author:
   avatar           : "profile.png" # TODO: sube tu foto a /images/profile.png (o cambia este nombre)
-  name             : "José Delgado"
+  name             : "Neguro"
   pronouns         : # e.g. "he/him"
   bio              : "Doctoral researcher working on humanoid robotics, currently focused on Reinforcement Learning for locomotion and manipulation."
   location         : "Nagaoka, Japan"
