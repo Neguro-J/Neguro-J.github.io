@@ -24,9 +24,9 @@ author:
   pronouns         : # e.g. "he/him"
   bio              : "Doctoral researcher working on humanoid robotics, currently focused on Reinforcement Learning for locomotion and manipulation."
   location         : "Nagaoka, Japan"
-  employer         : "Nagaoka University of Technology (Kyokugen Research Center)"
+  employer         : "Nagaoka University of Technology"
   uri              :
-  email            : "none@example.org" # TODO: tu email de contacto
+  email            : "n.delgado.v.cordero.212@gmail.com" # TODO: tu email de contacto
 
   # Academic websites
   academia         :
@@ -61,7 +61,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # TODO: solo el username (lo que va después de linkedin.com/in/)
+  linkedin         : jose-delgado-343b372a0
   mastodon         :
   medium           :
   pinterest        :
@@ -84,7 +84,7 @@ publication_category:
   manuscripts:
     title: 'Journal Articles'
   conferences:
-    title: 'Conference Papers'
+    title: 'Conference'
 
 # Site Settings
 teaser                   :
