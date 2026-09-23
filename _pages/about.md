@@ -19,13 +19,13 @@ Why humanoid robots?
 ------
 Ever since I was a child, I have dreamed of building robots that could genuinely help people not simply impressive machines, but something that feels more human.
 
-A big part of that dream came from my fascination with figures like Bionicle. What captured my imagination was not only their mechanical appearance, but the fact that they had stories, personalities, values, and a world of their own. They felt like more than pieces of plastic or machines; they felt like beings with history, purpose, and soul.
+A big part of that dream came from my fascination with 2000's robots topics figures. What captured my imagination was not only their mechanical appearance, but the fact that they had stories, personalities, values, and a world of their own. They felt like more than pieces of plastic or machines; they felt like beings with history, purpose, and soul.
 
 Because of that, I have always seen technology as something capable of becoming more than metal, circuits, and code. I believe it can carry meaning. It can reflect the people who create it, the values behind it, and the purpose it is meant to serve.
 
-That is the spirit I want this small corner of the Internet to have: a place where I can share the technical side of what I build without ever losing sight of the human motivation behind it.
+That is the spirit I want this small corner to have: a place where I can share the technical side of what I build without ever losing sight of the human motivation behind it.
 
-For me, engineering is not only about making things work. It is about giving meaning and life to what we create. After all, there are few things more human than wanting to love what we do—and if we can do that through technology, even better.
+For me, engineering is not only about making things work. It is about giving meaning and life to what we create. After all, there are few things more human than wanting to love what we do and if we can do that through technology, even better.
 
 Research interests
 ------
