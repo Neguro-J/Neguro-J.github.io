@@ -10,3 +10,4 @@ excerpt: 'Simulation-based study of reinforcement learning for humanoid cart-pus
 ---
 
 This poster presents a reinforcement learning-based approach to humanoid locomotion while pushing a passive cart. Using a simulated 20-DOF humanoid robot, the study examines stability, forward progress, and trajectory tracking across challenging terrain conditions.
+
