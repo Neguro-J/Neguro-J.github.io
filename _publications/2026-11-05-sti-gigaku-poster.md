@@ -1,4 +1,3 @@
-
 ---
 title: "Whole-Body Locomanipulation for Pushcart Tasks under Randomized Terrain and Load Conditions via Reinforcement Learning on a 20-DOF Humanoid Robot"
 collection: publications
