@@ -50,9 +50,9 @@ $$
 
 Where:
 
-- $\tau_{\mathrm{act}}$: actuator torque (Nm).
-- $\omega$: joint angular velocity (rad/s).
-- $P_{\mathrm{joint}}$: mechanical power (W).
+- <i>τ</i><sub>act</sub>: actuator torque (Nm).
+- <i>ω</i>: joint angular velocity (rad/s).
+- <i>P</i><sub>joint</sub>: mechanical power (W).
 
 When torque and angular velocity have the same sign, the actuator delivers mechanical power.
 
@@ -104,7 +104,7 @@ $$
 \boxed{P_{\mathrm{joint,abs}}=T\cdot\lvert\omega\rvert}
 $$
 
-Where $T$ is the magnitude of the resisting torque.
+Where <i>T</i> is the magnitude of the resisting torque.
 
 This represents the mechanical power being absorbed at the output joint.
 
@@ -124,7 +124,7 @@ $$
 \boxed{P_{\mathrm{rot}}=P_{\mathrm{joint,abs}}\cdot\eta_{\mathrm{mec}}}
 $$
 
-Where $\eta_{\mathrm{mec}}$ represents the assumed reverse mechanical efficiency.
+Where <i>η</i><sub>mec</sub> represents the assumed reverse mechanical efficiency.
 
 For example, if we assume:
 
@@ -154,7 +154,7 @@ $$
 
 For a geared actuator, we must distinguish motor-shaft torque from joint output torque.
 
-Using gear ratio $G$ and the same reverse efficiency approximation:
+Using gear ratio <i>G</i> and the same reverse efficiency approximation:
 
 $$
 T_{\mathrm{motor}}\approx\frac{\eta_{\mathrm{mec}}T}{G}
@@ -166,7 +166,7 @@ $$
 \boxed{I_{\mathrm{fase}}\approx\frac{\eta_{\mathrm{mec}}T}{G K_t}}
 $$
 
-Here, $K_t$ is assumed to be the motor-shaft torque constant expressed in Nm per ampere RMS.
+Here, <i>K</i><sub>t</sub> is assumed to be the motor-shaft torque constant expressed in Nm per ampere RMS.
 
 This detail matters because manufacturers may express torque constants using peak phase current, RMS phase current, or output-shaft torque.
 
@@ -198,9 +198,9 @@ $$
 
 Where:
 
-- $R_{L-L}$: resistance measured between two motor leads (Ω).
-- $I_{\mathrm{fase,RMS}}$: RMS phase current (A).
-- $P_{\mathrm{Cu}}$: winding losses (W).
+- <i>R</i><sub>L−L</sub>: resistance measured between two motor leads (Ω).
+- <i>I</i><sub>fase,RMS</sub>: RMS phase current (A).
+- <i>P</i><sub>Cu</sub>: winding losses (W).
 
 The factor 1.5 depends on the stated winding and current conventions.
 
@@ -246,7 +246,7 @@ $$
 \boxed{I_{\mathrm{regen}}=\frac{P_{\mathrm{DC,regen}}}{V_{\mathrm{bus}}}}
 $$
 
-Where $V_{\mathrm{bus}}$ is the DC-link voltage.
+Where <i>V</i><sub>bus</sub> is the DC-link voltage.
 
 Notice that the regenerative current reaching the DC bus is not the same as the motor's phase current.
 
@@ -273,7 +273,7 @@ These numbers are invented for the exercise and do not correspond to a specific 
 
 Now we calculate everything step by step.
 
-**1. Angular velocity**
+### 1. Angular velocity
 
 $$
 \omega=50\frac{2\pi}{60}
@@ -283,7 +283,7 @@ $$
 \omega\approx5.236\ \mathrm{rad/s}
 $$
 
-**2. Mechanical power absorbed by the joint**
+### 2. Mechanical power absorbed by the joint
 
 $$
 P_{\mathrm{joint,abs}}=40(5.236)
@@ -293,7 +293,7 @@ $$
 P_{\mathrm{joint,abs}}\approx209.4\ \mathrm{W}
 $$
 
-**3. Mechanical power reaching the rotor**
+### 3. Mechanical power reaching the rotor
 
 $$
 P_{\mathrm{rot}}=209.4(0.88)
@@ -303,7 +303,7 @@ $$
 P_{\mathrm{rot}}\approx184.3\ \mathrm{W}
 $$
 
-**4. Motor phase current**
+### 4. Motor phase current
 
 $$
 I_{\mathrm{fase}}=\frac{0.88(40)}{10(0.20)}
@@ -313,7 +313,7 @@ $$
 I_{\mathrm{fase}}=17.6\ \mathrm{A}
 $$
 
-**5. Copper losses**
+### 5. Copper losses
 
 $$
 P_{\mathrm{Cu}}=1.5(0.12)(17.6)^2
@@ -323,7 +323,7 @@ $$
 P_{\mathrm{Cu}}\approx55.8\ \mathrm{W}
 $$
 
-**6. Net regenerated power at the DC bus**
+### 6. Net regenerated power at the DC bus
 
 $$
 P_{\mathrm{DC,regen}}=(184.3-55.8)(0.96)
@@ -333,7 +333,7 @@ $$
 \boxed{P_{\mathrm{DC,regen}}\approx123.4\ \mathrm{W}}
 $$
 
-**7. Regenerative DC current**
+### 7. Regenerative DC current
 
 $$
 I_{\mathrm{regen}}=\frac{123.4}{52.9}
@@ -376,7 +376,7 @@ $$
 \boxed{I_{\mathrm{grupo}}=N I_{\mathrm{regen}}}
 $$
 
-Where $N$ is the number of motors under the same assumed operating condition.
+Where <i>N</i> is the number of motors under the same assumed operating condition.
 
 For different motor types or operating points, we should instead sum their individual contributions:
 
@@ -445,9 +445,9 @@ $$
 
 Where:
 
-- $P_{\mathrm{regen,total}}$: total power returned by regenerating actuators.
-- $P_{\mathrm{motoring,total}}$: power consumed by actuators operating in motoring mode.
-- $P_{\mathrm{aux}}$: power consumed by auxiliary electronics.
+- <i>P</i><sub>regen,total</sub>: total power returned by regenerating actuators.
+- <i>P</i><sub>motoring,total</sub>: power consumed by actuators operating in motoring mode.
+- <i>P</i><sub>aux</sub>: power consumed by auxiliary electronics.
 
 Let's return to our hypothetical humanoid.
 
@@ -535,9 +535,9 @@ $$
 
 Where:
 
-- $C$: equivalent DC-bus capacitance.
-- $V_1$: initial bus voltage.
-- $V_2$: final bus voltage.
+- <i>C</i>: equivalent DC-bus capacitance.
+- <i>V</i><sub>1</sub>: initial bus voltage.
+- <i>V</i><sub>2</sub>: final bus voltage.
 
 With a simplified net charging current, the instantaneous voltage-rise rate is approximately:
 
@@ -793,7 +793,7 @@ A useful reference for electrical-machine fundamentals, torque, power conversion
 
 Erickson, R. W., & Maksimović, D. (2020). *Fundamentals of Power Electronics* (3rd ed.). Springer.
 
-https://doi.org/10.1007/978-3-030-43881-4
+[DOI](https://doi.org/10.1007/978-3-030-43881-4)
 
 Relevant for converter efficiency, electrical energy storage, power balance, and converter operation.
 
@@ -801,7 +801,7 @@ Relevant for converter efficiency, electrical energy storage, power balance, and
 
 Seok, S., et al. (2015). *Design Principles for Energy-Efficient Legged Locomotion and Implementation on the MIT Cheetah Robot*. IEEE/ASME Transactions on Mechatronics, 20(3), 1117–1129.
 
-https://doi.org/10.1109/TMECH.2014.2339013
+[DOI](https://doi.org/10.1109/TMECH.2014.2339013)
 
 Discusses electrical and mechanical losses, regenerative electronics, and design considerations for energy-efficient legged locomotion.
 
@@ -809,6 +809,6 @@ Discusses electrical and mechanical losses, regenerative electronics, and design
 
 Carabin, G., Wehrle, E., & Vidoni, R. (2017). *A Review on Energy-Saving Optimization Methods for Robotic and Automatic Systems*. Robotics, 6(4), 39.
 
-https://doi.org/10.3390/robotics6040039
+[DOI](https://doi.org/10.3390/robotics6040039)
 
 Reviews energy-saving techniques in robotic systems, including regenerative drives, DC-bus energy sharing, and energy recovery.
