@@ -86,6 +86,9 @@ publication_category:
     title: 'Journal Articles'
   conferences:
     title: 'Conference'
+  posters:
+    title: 'Conference Posters'
+
 
 # Site Settings
 teaser                   :
